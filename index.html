@@ -6,29 +6,27 @@
 </head>
 <body>
 	<div class="wrapper">
-		<header>
+		<header class="header">
 			<div class="container">
-				<div class="header-left">
+				<div class="header__left">
 					<div class="user">
-						<div class="user-foto">
+						<div class="user__foto">
 							<img src="img/content/min-avatar.jpg" alt="mini-avatar">
 						</div>
-						<div class="user-name">
-							Вейт Олег
-						</div>
+						<div class="user__name">Вейт Олег</div>
 					</div>
 				</div>
-				<div class="header-right">
+				<div class="header__right">
 					<div class="contacts">
-						<a href="#" class="contacts-link">Мои контакты</a>
-						<ul class="contact-items">
-							<li class="items items-mail">
+						<a href="#" class="contacts">Мои контакты</a>
+						<ul class="contacts__list">
+							<li class="items items__mail">
 								<a href="#" class="items-mail-link"></a>
 							</li>
-							<li class="items items-phone">
+							<li class="items items__phone">
 								<a href="#" class="items-phone-link"></a>
 							</li>
-							<li class="items items-skype">
+							<li class="items items__skype">
 								<a href="#" class="items-skype-link"></a>
 							</li>
 						</ul>
@@ -39,39 +37,40 @@
 		<section class="content">
 			<div class="container">
 				<aside class="sidebar">
-					<nav class="menu">
-						<ul class="menu-items">
-							<li class="menu-items">
-								<a href="#" class="menu-link">
-									<span class="menu-icon"></span>
-									<span class="menu-title">Обо мне</span>
+					<nav class="nav">
+						<ul class="nav__list">
+							<li class="nav__items">
+								<a href="#" class="nav__link">
+									<span class="nav__icon"></span>
+									<span class="nav__title">Обо мне</span>
 								</a>
 							</li>
-							<li class="menu-items">
-								<a href="#" class="menu-link">
-									<span class="menu-icon"></span>
-									<span class="menu-title">Карьерный путь</span>
+							<li class="nav__items">
+								<a href="#" class="nav__link">
+									<span class="nav__icon"></span>
+									<span class="nav__title">Карьерный путь</span>
 								</a>
 							</li>
-							<li class="menu-items">
-								<a href="#" class="menu-link">
-									<span class="menu-icon"></span>
-									<span class="menu-title">Портфолио</span>
+							<li class="nav__items">
+								<a href="#" class="nav__link">
+									<span class="nav__icon"></span>
+									<span class="nav__title">Портфолио</span>
 								</a>
 							</li>
 						</ul>
 					</nav>
 				</aside>
-				<main class="page-content">
+				<main class="page">
 					<div class="about">
-						<div class="about-left">
-							<div class="about-img">
+						<div class="about__left">
+							<div class="about__img">
 								<img src="img/content/big-avatar.jpg" alt="big-avatar">
 							</div>	
 						</div>
-						<div class="about-right">
+						<div class="about__right">
+						<div class="about__desc">
 							<h1 class="title">Обо мне</h1>
-							<div class="about-discription">
+							<div class="about__text">
 								<p>
 									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat praesentium velit, ea sint architecto soluta nemo nobis veniam laborum, consequatur, corporis, optio culpa cum aut sapiente. Voluptates expedita totam mollitia!
 								</p>
@@ -82,10 +81,11 @@
 									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat praesentium velit, ea sint architecto soluta nemo nobis veniam laborum, consequatur, corporis, optio culpa cum aut sapiente. Voluptates expedita totam mollitia!
 								</p>
 							</div>
-							<div class="download">
-								<a href="#" class="download-link" download="">
-									<span class="download-icon"></span>
-									<span class="download-title">Скачать резюме</span>
+						</div>
+							<div class="about__btn">
+								<a class="download-btn" href="#">
+									<span class="download__icon"></span>
+									<span class="download__title">Скачать резюме</span>
 								</a>
 							</div>
 						</div>
@@ -94,27 +94,27 @@
 			</div>
 		</section>
 	</div>
-	<footer>
+	<footer class="footer">
 		<div class="container">
-			<div class="footer-left">
+			<div class="footer__left">
 				<div class="copyright">
 					© Дизайн сайта был разработан в школе LoftSchool
 				</div>
 			</div>
-			<div class="footer-right">
+			<div class="footer__right">
 				<ui class="socials">
-					<li class="socials-item">
-						<a href="#" class="socials-link socials-link-fb">
+					<li class="socials__item">
+						<a href="#" class="socials__link">
 							<img src="img/icons/fb.png" alt="">
 						</a>
 					</li>
-					<li class="socials-item">
-						<a href="#" class="socials-link socials-link-vk">
+					<li class="socials__item">
+						<a href="#" class="socials__link">
 							<img src="img/icons/vk.png" alt="">
 						</a>
 					</li>
-					<li class="socials-item">
-						<a href="#" class="socials-link socials-link-tw">
+					<li class="socials__item">
+						<a href="#" class="socials__link">
 							<img src="img/icons/tw.png" alt="">
 						</a>
 					</li>
