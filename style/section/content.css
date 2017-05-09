@@ -1,0 +1,43 @@
+.sidebar, .page {
+	float: left;
+}
+
+.sidebar {
+width: 220px;
+}
+
+.page {
+margin-left: 20px;	
+width: 700px;
+}
+
+.content-title {
+	font-weight: 500;
+	font-size: 35px;
+	color: #414141;
+	margin-bottom: 30px;
+}
+
+.btn {
+	padding: 7px 13px;
+	border: 2px solid #e85f61;
+	border-radius: 30px;
+	font-size: 14px;
+	font-weight: 600;
+	color: #e85f61;
+	text-decoration: none;
+}
+
+.btn__icon, .btn__text {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.btn__text {
+	margin-left: 8px;
+}
+
+.btn:hover {
+	background: #e85f61;
+	color: #fff;
+}
